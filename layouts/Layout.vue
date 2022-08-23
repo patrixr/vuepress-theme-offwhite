@@ -8,6 +8,12 @@
       >
         {{ $site.title }}
       </router-link>
+      <div
+        v-if="subtitle"
+        class="site-subtitle"
+      >
+        {{ subtitle }}
+      </div>
       <div style="clear: both" />
       <nav-bar />
     </header>
@@ -33,7 +39,10 @@ export default {
   computed: {
     isHome() {
       return this.$page.path === '/';
-    }
+    },
+    subtitle() {
+      return this.$themeConfig.subtitle || '';
+    },
   }
 };
 </script>

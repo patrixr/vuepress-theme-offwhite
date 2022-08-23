@@ -1,14 +1,11 @@
 {
   "name": "vuepress-theme-offwhite",
   "description": "OffWhite Theme for VuePress",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev example",
-    "lint": "eslint .",
-    "release": "npm run lint && standard-version && npm publish",
-    "bump": "standard-version",
-    "prepare": "husky install"
+    "lint": "eslint ."
   },
   "standard-version": {
     "skip": {
@@ -25,8 +22,6 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.1.2",
-    "husky": "^8.0.1",
-    "standard-version": "^8.0.1",
     "vuepress": "^1.3.1"
   },
   "dependencies": {
