@@ -1,7 +1,7 @@
 {
   "name": "vuepress-theme-offwhite",
   "description": "OffWhite Theme for VuePress",
-  "version": "1.76.37",
+  "version": "1.76.38",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev example",
