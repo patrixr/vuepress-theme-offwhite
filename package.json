@@ -1,15 +1,14 @@
 {
   "name": "vuepress-theme-offwhite",
   "description": "OffWhite Theme for VuePress",
-  "version": "1.76.38",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev example",
     "lint": "eslint .",
     "release": "npm run lint && standard-version && npm publish",
     "bump": "standard-version",
-    "prepare": "husky install",
-    "postinstall": "npm run prepare"
+    "prepare": "husky install"
   },
   "standard-version": {
     "skip": {
