@@ -1,0 +1,38 @@
+{
+  "name": "vuepress-theme-offwhite",
+  "description": "OffWhite Theme for VuePress",
+  "version": "1.76.37",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev example",
+    "lint": "eslint .",
+    "release": "npm run lint && standard-version && npm publish",
+    "bump": "standard-version",
+    "prepare": "husky install",
+    "postinstall": "npm run prepare"
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    }
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-theme",
+    "blog-theme"
+  ],
+  "repository": "patrixr/vuepress-theme-offwhite",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.1.2",
+    "husky": "^8.0.1",
+    "standard-version": "^8.0.1",
+    "vuepress": "^1.3.1"
+  },
+  "dependencies": {
+    "@vuepress/plugin-last-updated": "^1.2.0",
+    "prismjs": "^1.19.0",
+    "timeago.js": "^4.0.2"
+  }
+}
